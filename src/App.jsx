@@ -77,3 +77,40 @@ export default function App() {
             Estruturei governança operacional em 7 filiais, criando previsibilidade e indicadores executivos para tomada de decisão estratégica.
           </p>
         </div>
+
+        <div className="job">
+          <h3>Coordenador de Transporte</h3>
+          <span>Grupo Petrópolis</span>
+          <p>
+            Liderei operação industrial 24h com 56 motoristas, garantindo continuidade operacional em ambiente de alta pressão.
+            </p>
+        </div>
+      </section>
+
+      {/* ENGLISH VERSION */}
+      <section className="section center">
+        <h2>English Version</h2>
+        <p className="headline">
+          I transform complex operations into predictable, structured and scalable systems.
+        </p>
+        <p className="sub">
+          Operations Executive with experience in high-complexity logistics, multi-site management and critical regulatory environments.
+        </p>
+      </section>
+
+      {/* CONTACT */}
+      <section className="section center">
+        <h2>Contato</h2>
+        <p>fernandocfreitas@gmail.com</p>
+        <p>
+          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+      </section>
+
+      <footer>
+        <p>© Luiz Bernardelli</p>
+      </footer>
+
+    </div>
+  );
+}

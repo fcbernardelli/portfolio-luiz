@@ -53,6 +53,26 @@ export default function App() {
             Consolidação de operação 24h com estabilidade operacional e alinhamento entre áreas críticas.
           </p>
         </div>
+
+<section className="section">
+  <h2>Casos Reais</h2>
+
+  <div className="job">
+    <h3>Reestruturação Operacional</h3>
+    <p><strong>Contexto:</strong> Operação com baixa previsibilidade e ausência de indicadores</p>
+    <p><strong>Ação:</strong> Implantação de governança, KPIs e rotinas de gestão</p>
+    <p><strong>Resultado:</strong> Maior previsibilidade operacional e suporte à tomada de decisão executiva</p>
+  </div>
+
+  <div className="job">
+    <h3>Recuperação de Performance</h3>
+    <p><strong>Contexto:</strong> Desgaste com cliente estratégico</p>
+    <p><strong>Ação:</strong> Reorganização operacional e alinhamento entre áreas</p>
+    <p><strong>Resultado:</strong> Restabelecimento da performance contratual</p>
+  </div>
+
+</section>
+        
       </section>
 
       {/* O QUE EU FAÇO */}

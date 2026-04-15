@@ -17,13 +17,13 @@ export default function App() {
       </section>
 
       {/* KPIs */}
-      <section className="kpis">
+      <section className="KPI">
         {[
           { value: "+7", label: "Filiais" },
           { value: "+65", label: "Colaboradores" },
           { value: "+35", label: "Veículos" },
           { value: "24/7", label: "Operação" },
-          { value: "MM L/mês", label: "Volume" }
+          { value: "14 L/mês", label: "Volume Movimentado" }
         ].map((kpi, i) => (
           <div key={i} className="kpi">
             <h3>{kpi.value}</h3>

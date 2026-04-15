@@ -103,12 +103,12 @@ export default function App() {
         <h2>Contato</h2>
         <p>fernandocfreitas@gmail.com</p>
         <p>
-          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/luizbernardelli/" target="_blank">LinkedIn</a>
         </p>
       </section>
 
       <footer>
-        <p>© Luiz Bernardelli</p>
+        <p>© Luiz Fernando Bernardelli</p>
       </footer>
 
     </div>

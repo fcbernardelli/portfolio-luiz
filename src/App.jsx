@@ -51,7 +51,7 @@ export default function App() {
 <section className="hero hero-flex">
 
   <img 
-    src="/src/assets/LFCFB - Foto 3x4.jpg" 
+    src="/src/assets/LFCFB-Foto3x4.jpg" 
     alt="Luiz Bernardelli"
     className="profile-pic"
   />

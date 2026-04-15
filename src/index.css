@@ -1,10 +1,7 @@
-
-/* CSS */
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #020617;
+  background: radial-gradient(circle at top, #0f172a, #020617);
   color: #e2e8f0;
 }
 
@@ -12,6 +9,15 @@ body {
   max-width: 1100px;
   margin: auto;
   padding: 20px;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .lang-switch {
@@ -25,11 +31,47 @@ body {
   color: #22d3ee;
   padding: 5px 10px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-switch button:hover {
+  background: #22d3ee;
+  color: #020617;
 }
 
 .hero {
+  padding: 100px 20px;
   text-align: center;
-  padding: 80px 20px;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.premium-bg {
+  background: linear-gradient(135deg, rgba(34,211,238,0.1), transparent);
+  border-radius: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.premium-photo {
+  border: 3px solid #22d3ee;
+  box-shadow: 0 0 25px rgba(34,211,238,0.5);
+  transition: transform 0.3s ease;
+}
+
+.premium-photo:hover {
+  transform: scale(1.05);
 }
 
 .headline {
@@ -41,27 +83,6 @@ body {
   margin: 60px 0;
 }
 
-.job {
-  border-left: 3px solid #22d3ee;
-  padding-left: 15px;
-  margin-bottom: 20px;
-}
-
 .center {
   text-align: center;
-}
-.hero-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.profile-pic {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #22d3ee;
 }

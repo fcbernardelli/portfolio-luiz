@@ -7,7 +7,7 @@ export default function App() {
 
       {/* HERO */}
       <section className="hero">
-        <h1>Luiz Bernardelli</h1>
+        <h1>Luiz Fernando Bernardelli</h1>
         <p className="headline">
           Transformo operações complexas em estruturas previsíveis, governadas e escaláveis.
         </p>

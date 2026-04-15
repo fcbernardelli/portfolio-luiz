@@ -22,7 +22,7 @@ export default function App() {
       <section className="hero hero-flex premium-bg">
 
         <img 
-          src="/src/assets/LFCFB - Foto 3x4.jpeg" 
+          src="/LFCFB - Foto 3x4.jpeg" 
           alt="Luiz Fernando Bernardelli"
           className="profile-pic premium-photo"
         />

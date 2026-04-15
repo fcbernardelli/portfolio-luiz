@@ -23,7 +23,7 @@ export default function App() {
           { value: "+65", label: "Colaboradores" },
           { value: "+35", label: "Veículos" },
           { value: "24/7", label: "Operação" },
-          { value: "7.8M L/mês", label: "Volume" }
+          { value: "7.8M+", label: "Litros/mês" }
         ].map((kpi, i) => (
           <div key={i} className="kpi">
             <h3>{kpi.value}</h3>
@@ -53,26 +53,26 @@ export default function App() {
             Consolidação de operação 24h com estabilidade operacional e alinhamento entre áreas críticas.
           </p>
         </div>
+      </section>
 
-<section className="section">
-  <h2>Casos Reais</h2>
+      {/* CASOS REAIS */}
+      <section className="section">
+        <h2>Casos Reais</h2>
 
-  <div className="job">
-    <h3>Reestruturação Operacional</h3>
-    <p><strong>Contexto:</strong> Operação com baixa previsibilidade e ausência de indicadores</p>
-    <p><strong>Ação:</strong> Implantação de governança, KPIs e rotinas de gestão</p>
-    <p><strong>Resultado:</strong> Maior previsibilidade operacional e suporte à tomada de decisão executiva</p>
-  </div>
+        <div className="job">
+          <h3>Reestruturação Operacional</h3>
+          <p><strong>Contexto:</strong> Operação com baixa previsibilidade e ausência de indicadores</p>
+          <p><strong>Ação:</strong> Implantação de governança, KPIs e rotinas de gestão</p>
+          <p className="impact"><strong>Resultado:</strong> Previsibilidade operacional e suporte executivo à decisão</p>
+        </div>
 
-  <div className="job">
-    <h3>Recuperação de Performance</h3>
-    <p><strong>Contexto:</strong> Desgaste com cliente estratégico</p>
-    <p><strong>Ação:</strong> Reorganização operacional e alinhamento entre áreas</p>
-    <p><strong>Resultado:</strong> Restabelecimento da performance contratual</p>
-  </div>
+        <div className="job">
+          <h3>Recuperação de Performance</h3>
+          <p><strong>Contexto:</strong> Desgaste com cliente estratégico</p>
+          <p><strong>Ação:</strong> Reorganização operacional e alinhamento entre áreas</p>
+          <p className="impact"><strong>Resultado:</strong> Restabelecimento da performance contratual</p>
+        </div>
 
-</section>
-        
       </section>
 
       {/* O QUE EU FAÇO */}
@@ -94,41 +94,54 @@ export default function App() {
           <h3>Coordenador Logístico Sênior</h3>
           <span>Rio Branco Energias</span>
           <p>
-            Estruturei governança operacional em 7 filiais, criando previsibilidade e indicadores executivos para tomada de decisão estratégica.
+            Estruturei governança operacional em 7 filiais, criando previsibilidade e indicadores executivos.
           </p>
+          <p className="impact">Impacto: transformação de operação reativa em modelo orientado por dados.</p>
         </div>
 
         <div className="job">
           <h3>Coordenador de Transporte</h3>
           <span>Grupo Petrópolis</span>
           <p>
-            Liderei operação industrial 24h com 56 motoristas, garantindo continuidade operacional em ambiente de alta pressão.
-            </p>
+            Liderei operação industrial 24h com 56 motoristas em ambiente de alta pressão.
+          </p>
+          <p className="impact">Impacto: garantia de continuidade operacional em cenário crítico.</p>
+        </div>
+
+        <div className="job">
+          <h3>Gerente de Operações</h3>
+          <span>Transportadora Veronese</span>
+          <p>
+            Conduzi expansão de frota e consolidação operacional com foco em segurança e performance.
+          </p>
+          <p className="impact">Impacto: aumento de capacidade e estabilidade operacional.</p>
         </div>
       </section>
 
       {/* ENGLISH VERSION */}
       <section className="section center">
         <h2>English Version</h2>
+
         <p className="headline">
-          I transform complex operations into predictable, structured and scalable systems.
+          I structure complex operations, restore predictability and sustain performance in critical environments.
         </p>
+
         <p className="sub">
-          Operations Executive with experience in high-complexity logistics, multi-site management and critical regulatory environments.
+          Operations Executive with strong experience in fuel logistics, multi-site management and high-pressure industrial environments. Proven track record in governance implementation, performance recovery and operational stabilization.
         </p>
       </section>
 
       {/* CONTACT */}
       <section className="section center">
-        <h2>Contato</h2>
+        <h2>Contact</h2>
         <p>fernandocfreitas@gmail.com</p>
         <p>
-          <a href="https://www.linkedin.com/in/luizbernardelli/" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/luizbernardelli" target="_blank">LinkedIn</a>
         </p>
       </section>
 
       <footer>
-        <p>© Luiz Fernando Bernardelli</p>
+        <p>© Luiz Bernardelli</p>
       </footer>
 
     </div>

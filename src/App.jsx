@@ -1,4 +1,22 @@
 import React from "react";
+import "./index.css";
+
+export default function App() {
+  return (
+    <div className="container">
+
+      {/* HERO */}
+      <section className="hero">
+        <h1>Luiz Bernardelli</h1>
+        <p className="headline">
+          Transformo operações complexas em estruturas previsíveis, governadas e escaláveis.
+        </p>
+        <p className="sub">
+          Executivo de operações com experiência em logística de alta complexidade, gestão multiunidades e ambientes regulatórios críticos.
+        </p>
+      </section>
+
+      {/* KPIs */}
       <section className="kpis">
         {[
           { value: "+7", label: "Filiais" },

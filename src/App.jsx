@@ -22,9 +22,9 @@ export default function App() {
       <section className="hero hero-flex premium-bg">
 
         <img 
-         <img 
-  src="https://via.placeholder.com/150"
-  alt="teste"
+         <imgsrc="/foto.jpg"
+  alt="Luiz Bernardelli"
+  className="profile-pic premium-photo"
 />
         />
 

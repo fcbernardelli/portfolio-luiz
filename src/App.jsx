@@ -9,7 +9,7 @@ export default function App() {
       <section className="hero">
         <h1>Luiz Bernardelli</h1>
         <p className="headline">
-          Transformo operações complexas em estruturas previsíveis, governadas e escaláveis.
+          Estruturo operações complexas, restabeleço previsibilidade e sustento performance em ambientes críticos.
         </p>
         <p className="sub">
           Executivo de operações com atuação em logística de alta complexidade, gestão multiunidades e ambientes regulatórios críticos.

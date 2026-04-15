@@ -48,15 +48,24 @@ export default function App() {
       </div>
 
       {/* HERO */}
-      <section className="hero">
-        <h1>Luiz Bernardelli</h1>
-        <p className="headline">
-          {lang === "pt"
-            ? "Estruturo operações complexas e sustento performance em ambientes críticos"
-            : "I structure complex operations and sustain performance in critical environments"}
-        </p>
-      </section>
+<section className="hero hero-flex">
 
+  <img 
+    src="/src/assets/foto.jpg" 
+    alt="Luiz Bernardelli"
+    className="profile-pic"
+  />
+
+  <div>
+    <h1>Luiz Bernardelli</h1>
+    <p className="headline">
+      {lang === "pt"
+        ? "Estruturo operações complexas e sustento performance em ambientes críticos"
+        : "I structure complex operations and sustain performance in critical environments"}
+    </p>
+  </div>
+
+</section>
       {/* ABOUT */}
       <section className="section">
         <h2>{t[lang].aboutTitle}</h2>

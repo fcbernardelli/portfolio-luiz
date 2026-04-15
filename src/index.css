@@ -1,10 +1,4 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #020617;
-  color: #e2e8f0;
-}
-
 .container {
   max-width: 1100px;
   margin: auto;
@@ -23,3 +17,59 @@ body {
 
 .headline {
   font-size: 22px;
+  color: #cbd5f5;
+}
+
+.sub {
+  margin-top: 10px;
+  color: #94a3b8;
+}
+
+.kpis {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.kpi {
+  flex: 1;
+  min-width: 120px;
+  margin: 10px;
+}
+
+.kpi h3 {
+  color: #22d3ee;
+  font-size: 28px;
+}
+
+.section {
+  margin: 60px 0;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.job {
+  border-left: 3px solid #22d3ee;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.job span {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #64748b;
+}

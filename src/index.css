@@ -1,3 +1,6 @@
+
+/* CSS */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -11,52 +14,31 @@ body {
   padding: 20px;
 }
 
-.hero {
-  text-align: center;
-  padding: 100px 20px;
+.lang-switch {
+  text-align: right;
 }
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+.lang-switch button {
+  margin-left: 10px;
+  background: none;
+  border: 1px solid #22d3ee;
+  color: #22d3ee;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
 }
 
 .headline {
-  font-size: 22px;
+  font-size: 20px;
   color: #cbd5f5;
-}
-
-.sub {
-  margin-top: 10px;
-  color: #94a3b8;
-}
-
-.kpis {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: center;
-  margin: 60px 0;
-}
-
-.kpi {
-  flex: 1;
-  min-width: 120px;
-  margin: 10px;
-}
-
-.kpi h3 {
-  color: #22d3ee;
-  font-size: 28px;
 }
 
 .section {
   margin: 60px 0;
-}
-
-.section h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
 }
 
 .job {
@@ -65,32 +47,6 @@ body {
   margin-bottom: 20px;
 }
 
-.job span {
-  color: #94a3b8;
-  font-size: 14px;
-}
-
 .center {
   text-align: center;
-}
-
-footer {
-  text-align: center;
-  margin-top: 60px;
-  color: #64748b;
-}
-
-.impact {
-  color: #22d3ee;
-  font-size: 14px;
-  margin-top: 5px;
-}
-
-a {
-  color: #22d3ee;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }

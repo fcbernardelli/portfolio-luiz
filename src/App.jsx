@@ -7,29 +7,52 @@ export default function App() {
 
       {/* HERO */}
       <section className="hero">
-        <h1>Luiz Fernando Bernardelli</h1>
+        <h1>Luiz Bernardelli</h1>
         <p className="headline">
           Transformo operações complexas em estruturas previsíveis, governadas e escaláveis.
         </p>
         <p className="sub">
-          Executivo de operações com experiência em logística de alta complexidade, gestão multiunidades e ambientes regulatórios críticos.
+          Executivo de operações com atuação em logística de alta complexidade, gestão multiunidades e ambientes regulatórios críticos.
         </p>
       </section>
 
       {/* KPIs */}
-      <section className="KPI">
+      <section className="kpis">
         {[
           { value: "+7", label: "Filiais" },
           { value: "+65", label: "Colaboradores" },
           { value: "+35", label: "Veículos" },
           { value: "24/7", label: "Operação" },
-          { value: "14 L/mês", label: "Volume Movimentado" }
+          { value: "7.8M L/mês", label: "Volume" }
         ].map((kpi, i) => (
           <div key={i} className="kpi">
             <h3>{kpi.value}</h3>
             <p>{kpi.label}</p>
           </div>
         ))}
+      </section>
+
+      {/* RESULTADOS */}
+      <section className="section">
+        <h2>Resultados</h2>
+
+        <div className="job">
+          <p>
+            Reestruturação de operação logística com baixa previsibilidade, implementando indicadores e rotinas de gestão executiva.
+          </p>
+        </div>
+
+        <div className="job">
+          <p>
+            Recuperação de performance contratual com grandes clientes em ambiente de alta complexidade operacional.
+          </p>
+        </div>
+
+        <div className="job">
+          <p>
+            Consolidação de operação 24h com estabilidade operacional e alinhamento entre áreas críticas.
+          </p>
+        </div>
       </section>
 
       {/* O QUE EU FAÇO */}
@@ -51,40 +74,6 @@ export default function App() {
           <h3>Coordenador Logístico Sênior</h3>
           <span>Rio Branco Energias</span>
           <p>
-            Estruturei governança operacional em 7 filiais, criando previsibilidade e indicadores executivos.
+            Estruturei governança operacional em 7 filiais, criando previsibilidade e indicadores executivos para tomada de decisão estratégica.
           </p>
         </div>
-
-        <div className="job">
-          <h3>Coordenador de Transporte</h3>
-          <span>Grupo Petrópolis</span>
-          <p>
-            Liderei operação 24h com 56 motoristas em ambiente industrial de alta pressão.
-          </p>
-        </div>
-
-        <div className="job">
-          <h3>Gerente de Operações</h3>
-          <span>Transportadora Veronese</span>
-          <p>
-            Conduzi expansão de frota e consolidação operacional em ambiente regulado.
-          </p>
-        </div>
-      </section>
-
-      {/* ENGLISH */}
-      <section className="section center">
-        <h2>English Version</h2>
-        <p>
-          Operations Executive specialized in structuring complex logistics environments, driving governance, efficiency and scalable performance.
-        </p>
-      </section>
-
-      {/* FOOTER */}
-      <footer>
-        <p>fernandocfreitas@gmail.com</p>
-      </footer>
-
-    </div>
-  );
-}
